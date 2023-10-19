@@ -1,0 +1,57 @@
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: black;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.box-shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.top-1 {
+  top: 1rem;
+}
+
+ul {
+  list-style: none;
+  .in-msg {
+    color: #dd1155;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0px;
+  }
+  .ex-msg {
+    color: #459c1a;
+    font-weight: bold;
+    padding: 10px 26px;
+    text-align: right;
+  }
+}
+
+.msg {
+  font-weight: 300;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
